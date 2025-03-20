@@ -7,6 +7,8 @@ Database can be prefilled with assets as needed.
 Assets will be crawled and stored in the database during the seed processes.  
 *thumbnails will be generated while seeding the database*
 
+Maps must contain a thumbnail.
+
 ### Structure
 To be coherent with Teedata's naming, please consider using only following characters for naming files manually:  
 `0-9 a-z A-Z . _ , -`
@@ -15,6 +17,12 @@ To be coherent with Teedata's naming, please consider using only following chara
 ├─────[name]
 │       [name].png
 │       [name].thumbnail.png
+└
+
+├───[maps]
+├─────[name]
+│       [name].map
+│       [name].thumbnail.jpg
 └
 ```
 
